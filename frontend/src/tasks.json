@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "Learn Laravel",
+    "details": "Watch tutorials about REST API in Laravel framework. Some of the topics you will learn about include models, controllers, database migrations, etc. After that, you will be able to create backend REST APIs on your own.",
+    "is_completed": true,
+    "completed_at": "2025-06-01 22:00:00"
+  },
+  {
+    "id": 2,
+    "title": "Learn HTML and CSS",
+    "details": "Watch tutorials about basics of frontend development using HTML and CSS. Some of the topics you will learn include HTML elements and CSS class properties. After that, you will be able to create static websites on your own.",
+    "is_completed": false,
+    "completed_at": null
+  },
+  {
+    "id": 3,
+    "title": "Learn Vue.js",
+    "details": "Watch tutorials about frontend development using Vue.js. Some of the topics you will learn include vue directives, properties binding, routing, etc. After that, you will be able to upgrade your static website you built using HTML and CSS to be dynamic.",
+    "is_completed": false,
+    "completed_at": null
+  },
+  {
+    "id": 4,
+    "title": "Learn about databases",
+    "details": "Watch tutorials about projecting relational databases. Some of the topics you will learn include entities, relations, normalization, etc. After that, you shall have some solid knowledge in order to plan databases by yourself.",
+    "is_completed": false,
+    "completed_at": null
+  },
+  {
+    "id": 5,
+    "title": "Learn SQL",
+    "details": "Watch tutorials about SQL, which is used for work with relational databases. Some of the topics you will learn include CRUD operations, filtering data, etc. After that, you will be able to write queries by yourself.",
+    "is_completed": false,
+    "completed_at": null
+  },
+  {
+    "id": 6,
+    "title": "Create backend application",
+    "details": "Using the knowledge you gathered about Laravel, build a REST API that uses model from the database. The model is based on a task has following columns: ID, title, details, status and time of completion. CRUD methods you will implement include: retrieving data about all tasks and single task by id, creating new task, updating task and deleting task. These methods shall be managed by controller and each shall correspond to an adequate route.",
+    "is_completed": false,
+    "completed_at": null
+  },
+  {
+    "id": 7,
+    "title": "Create frontend application",
+    "details": "Using the knowledge you gathered about HTML, CSS and Vue.js, create a frontend for the existing REST API backend. You should implement vue-directives, vue-routing and all other necessary actions in order for your website to be dynamic.",
+    "is_completed": false,
+    "completed_at": null
+  },
+  {
+    "id": 8,
+    "title": "Create full-stack application",
+    "details": "Connect your Laravel backend REST API and Vue.js frontend, so your website actually uses the existing server in order to perform CRUD operations you implemented in your backend.",
+    "is_completed": false,
+    "completed_at": null
+  }
+]
