@@ -8,10 +8,6 @@
 
   const showFullDetails = ref(false);
 
-  const toggleFullDetails = () => {
-    showFullDetails = !showFullDetails.value;
-  };
-
   const truncatedDetails = computed(() => {
     let details = props.task.details;
     if (!showFullDetails.value) {
@@ -37,10 +33,7 @@
         class="h-[36px] px-4 py-2 rounded-lg text-center text-sm text-white bg-gray-500 flex items-center"
         >
           Status: {{ props.task.is_completed ? 'finished' : 'pending' }}
-          <span v-if="props.task.is_completed" class="text-xs opacity-80 mx-2">
-            ({{ props.task.completed_at }})
-          </span>
-
+          
           <i :class="props.task.is_completed ? 'pi pi-check-circle ml-2' : 'pi pi-hourglass ml-2'"></i>
         </div>
 
@@ -49,7 +42,7 @@
           :to="`/tasks/${task.id}`"
           class="h-[36px] bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg text-center text-sm"
         >
-          Read More
+          More
         </RouterLink>
       </div>
 
